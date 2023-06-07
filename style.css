@@ -29,6 +29,7 @@ li{
     top: 0;
     background: white;
     z-index: 10;
+    border-bottom: lightslategray 1px solid;
 }
 .nav-item {
     font-size: 15px;
@@ -47,9 +48,26 @@ span {
 p {
     font-size: 18px;
 }
-#about img {
+.home-container{
+    margin:30px 0px 30px 0px;
+    align-items: center;
+}
+#home img{
+    width: 50rem;
+    height: 40rem;
+}
+.home-img{
     width: 25rem;
     height: 25rem;
+}
+.img-fluid{
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+#about img {
+    width: 25rem;
+    height: 30rem;
     border-radius: 50px;
 }
 
