@@ -8,10 +8,12 @@ body {
 }
 section {
     display: flex;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     align-items: center;
     justify-items: center;
     justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 /*------------Navbar--------------*/
 .bold {
@@ -64,6 +66,7 @@ p {
     height: 100%;
     width: 100%;
     object-fit: scale-down;
+    border-radius: 1rem;
 }
 #about img {
     width: 25rem;
